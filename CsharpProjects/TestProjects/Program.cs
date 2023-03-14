@@ -12,7 +12,7 @@ flaudulentOrderIDs[0] ="F000";
 Console.WriteLine($"Reassign First: {flaudulentOrderIDs[0]}");
 Console.WriteLine($"There are {flaudulentOrderIDs.Length} flaudulent orders to process.");
 
-int[]inventory = {200,450,700,175,250};
+int[]inventory = {100,250,700,15,270};
 int sum = 0;
 int bin = 0;
 foreach(int items in inventory){
