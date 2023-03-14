@@ -1,8 +1,8 @@
-﻿// string [] flaudulentOrderIDs = new string[3];
-// flaudulentOrderIDs[0] = "A123";
-// flaudulentOrderIDs[1] = "B456";
-// flaudulentOrderIDs[2] = "C789";
-// //flauduleOrderIDs[3] = "D000";
+﻿string [] flaudulentOrderIDs = new string[3];
+flaudulentOrderIDs[0] = "A123";
+flaudulentOrderIDs[1] = "B456";
+flaudulentOrderIDs[2] = "C789";
+//flauduleOrderIDs[3] = "D000";
 
 string [] flaudulentOrderIDs = {"A123" ,"B456","C789" };
 Console.WriteLine($"First  :  {flaudulentOrderIDs[0]}");
@@ -21,4 +21,11 @@ foreach(int items in inventory){
      Console.WriteLine($" Bin {bin} = {items } items (Running total : { sum } )");
 }
  Console.WriteLine($" We have  {sum } items in inventory. )");
+
+// Random random = new Random();
+// int current = 0 ;
+// do{
+//     current = random.Next(1,11);
+//     console.WriteLine(current);
+// }while(current <=7);
 
