@@ -4,7 +4,7 @@ namespace Giraffe{
     class Program
     {
         static void Main(string[]args){
-            Console.WriteLine(GetDay(4));
+            Console.WriteLine(GetDay(0));
 
             Console.ReadLine();
         }
@@ -17,32 +17,32 @@ namespace Giraffe{
             }
               switch(dayNum){
                 case 1: 
-                     dayName = "Sunday";
+                     dayName = "Monday";
                      break;
             }
               switch(dayNum){
                 case 2: 
-                     dayName = "Sunday";
+                     dayName = "Tuesday";
                      break;
             }
               switch(dayNum){
                 case 3: 
-                     dayName = "Sunday";
+                     dayName = "Wednesday";
                      break;
             }
               switch(dayNum){
                 case 4: 
-                     dayName = "Sunday";
+                     dayName = "Thursay";
                      break;
             }
               switch(dayNum){
                 case 5: 
-                     dayName = "Sunday";
+                     dayName = "Friday";
                      break;
             }
               switch(dayNum){
                 case 6: 
-                     dayName = "Sunday";
+                     dayName = "Saturaday";
                      break;
                 default:
                      dayName= "Invalid day number";
@@ -113,3 +113,55 @@ namespace Giraffe{
 //     Console.WriteLine("You win a Kitten");
 // }
 
+
+
+        //  Case 1: 
+        //      dayName = "Sunday";
+        //      break;
+        //  Case 2: 
+        //      dayName = "Sunday";
+        //      break;
+        //  Case 3: 
+        //      dayName = "Sunday";
+        //      break;
+
+        //  Case 0: 
+        //      dayName = "Sunday";
+        //      break;
+             
+        //  Case 0: 
+        //      dayName = "Sunday";
+        //      break;
+        //  Case 0: 
+        //      dayName = "Sunday";
+        //      break;
+   // }
+
+ 
+
+
+
+// Console.Write("Enter a number: ");
+// double num1 =Convert.ToDouble(Console.ReadLine());
+
+// Console.Write("Enter Operator: ");
+// string op = Console.ReadLine();
+
+// Console.Write("Enter a number: ");
+// double num2 =Convert.ToDouble(Console.ReadLine());
+
+// if(op=="+"){
+//     Console.WriteLine(num1+num2);
+
+// }else if(op =="-"){
+//      Console.WriteLine(num1-num2);
+
+// }else if(op=="*"){
+//     Console.WriteLine(num1 * num2);
+
+// }else if(op =="/"){
+//      Console.WriteLine(num1 / num2);
+
+// }else{
+//     Console.WriteLine("Invalid Operator");
+// }
