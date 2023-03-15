@@ -4,7 +4,7 @@ namespace Giraffe{
     class Program
     {
         static void Main(string[]args){
-            Console.WriteLine(GetDay(0));
+            Console.WriteLine(GetDay(12));
 
             Console.ReadLine();
         }
@@ -14,33 +14,27 @@ namespace Giraffe{
                 case 0: 
                      dayName = "Sunday";
                      break;
-            }
-              switch(dayNum){
                 case 1: 
                      dayName = "Monday";
                      break;
-            }
-              switch(dayNum){
+            
+              
                 case 2: 
                      dayName = "Tuesday";
                      break;
-            }
-              switch(dayNum){
+            
+             
                 case 3: 
                      dayName = "Wednesday";
                      break;
-            }
-              switch(dayNum){
+            
+             
                 case 4: 
                      dayName = "Thursay";
                      break;
-            }
-              switch(dayNum){
                 case 5: 
                      dayName = "Friday";
                      break;
-            }
-              switch(dayNum){
                 case 6: 
                      dayName = "Saturaday";
                      break;
