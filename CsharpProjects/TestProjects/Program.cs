@@ -1,31 +1,24 @@
-﻿string [] flaudulentOrderIDs = new string[3];
-flaudulentOrderIDs[0] = "A123";
-flaudulentOrderIDs[1] = "B456";
-flaudulentOrderIDs[2] = "C789";
-//flauduleOrderIDs[3] = "D000";
+﻿Console.Write("Enter a number: ");
+double num1 =Convert.ToDouble(Console.ReadLine());
 
-string [] flaudulentOrderIDs = {"A123" ,"B456","C789" };
-Console.WriteLine($"First  :  {flaudulentOrderIDs[0]}");
-Console.WriteLine($"Second :  {flaudulentOrderIDs[1]}");
-Console.WriteLine($"Third  :  {flaudulentOrderIDs[2]}");
-flaudulentOrderIDs[0] ="F000";
-Console.WriteLine($"Reassign First: {flaudulentOrderIDs[0]}");
-Console.WriteLine($"There are {flaudulentOrderIDs.Length} flaudulent orders to process.");
+Console.Write("Enter Operator: ");
+string op = Console.ReadLine();
 
-int[]inventory = {100,250,700,15,270};
-int sum = 0;
-int bin = 0;
-foreach(int items in inventory){
-    sum+=items;
-    bin++;
-     Console.WriteLine($" Bin {bin} = {items } items (Running total : { sum } )");
+Console.Write("Enter a number: ");
+double num2 =Convert.ToDouble(Console.ReadLine());
+
+if(op=="+"){
+    Console.WriteLine(num1+num2);
+
+}else if(op =="-"){
+     Console.WriteLine(num1-num2);
+
+}else if(op=="*"){
+    Console.WriteLine(num1 * num2);
+
+}else if(op =="/"){
+     Console.WriteLine(num1 / num2);
+
+}else{
+    Console.WriteLine("Invalid Operator");
 }
- Console.WriteLine($" We have  {sum } items in inventory. )");
-
-// Random random = new Random();
-// int current = 0 ;
-// do{
-//     current = random.Next(1,11);
-//     console.WriteLine(current);
-// }while(current <=7);
-
