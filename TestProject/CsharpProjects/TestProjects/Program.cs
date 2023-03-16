@@ -2,13 +2,15 @@
 string secretWord = "Gift";
 string guess = "";
 int count = 0;
-
-
-while(secretWord!=guess&&count<=3){
-    Console.WriteLine("Enter guess : ");
+do{
+     Console.WriteLine("Enter guess : ");
     guess=Console.ReadLine();
     count++;
 }
+
+
+while(secretWord!=guess&&count<=3);
+
 if(guess==secretWord){
     Console.WriteLine("you win!");
 }else
