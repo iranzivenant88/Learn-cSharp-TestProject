@@ -1,4 +1,6 @@
-﻿using System.Text;
+﻿
+
+using System.Text;
 using System.Threading.Tasks;
 namespace Giraffe{
     class Program
@@ -50,8 +52,10 @@ namespace Giraffe{
         }
         
 
-    }
+   }
 }
+
+
 // Random dice = new Random();
 // int roll1 = dice.Next();
 // int roll2 = dice.Next(101);
