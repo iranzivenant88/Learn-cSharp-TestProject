@@ -1,7 +1,7 @@
 ﻿
 string secretWord = "Gift";
 string guess = "";
-int count = 0;
+int count = 1;
 do{
      Console.WriteLine("Enter guess : ");
     guess=Console.ReadLine();
@@ -21,4 +21,4 @@ if(guess==secretWord){
 
 
 
-
+0
